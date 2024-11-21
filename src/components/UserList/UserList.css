@@ -1,0 +1,63 @@
+.user-list-container {
+  display: flex;
+  background-color: rgb(56, 53, 53);
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+}
+
+.titulo {
+  color: #fff;
+}
+
+.boton {
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tabla {
+  background-color: rgb(56, 53, 53);
+}
+
+.boton:hover {
+  background-color: #d32f2f;
+}
+
+.p-button {
+  margin-right: 10px;
+}
+
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: rgb(56, 53, 53); 
+  color: white; 
+  padding: 10px;
+}
+
+
+.p-datatable .p-datatable-tbody > tr {
+  background-color: rgb(56, 53, 53); 
+  color: white;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 10px;
+}
+
+
+.p-datatable .p-datatable-tbody > tr > td:nth-child(4) {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+  

@@ -1,0 +1,53 @@
+
+.user-edit-from-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #110d44;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.columna {
+  width: 100%;
+  margin-bottom: 15px; 
+  padding: 2px;
+}
+
+h3, .minititulo {
+  color: #fff;
+}
+
+
+.columna label {
+  display: block; 
+  color: #fff; 
+  margin-bottom: 5px; 
+}
+
+
+.botones {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.boton {
+    background-color: #f44336;
+    padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 48%; 
+  color: white;
+  border: none;
+}
+
+.boton:hover {
+  background-color: #d32f2f;
+}
+  
